@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "bing map square search",
+    "version": "1.0",
+    "description": "locate square and rectalngle on bing map",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
