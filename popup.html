@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 220px; /* Largeur du petit menu */
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    button {
+      background-color: #ff00ff; /* Couleur magenta comme la ligne du tasking manager */
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #d000d0;
+    }
+    #statut {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Zone scanner</h3>
+  <button id="bouton-analyser">🔍 Détecter</button>
+  
+  <div id="statut">En attente...</div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
